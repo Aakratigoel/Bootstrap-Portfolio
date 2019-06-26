@@ -124,3 +124,17 @@ footer{
     padding-top:25px;
     padding-bottom:25px;
 }
+#head1
+{
+        position: absolute;
+        top:145px;
+        left:15px;
+        padding-top:7px;
+        background-color: teal;
+        color:white;
+        text-align:center;
+        width:200px;
+        height: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
