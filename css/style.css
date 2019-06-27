@@ -70,6 +70,22 @@ footer{
         font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+#rowId1
+{
+    height: 50px;
+}
+#rowId2
+{
+    height: 90px;
+}
+#rowId3
+{
+    height: 440px;
+}
+#rowId4
+{
+    height: 80px;
+}
 @media screen and (max-width:640px)
 {
     
@@ -85,6 +101,12 @@ footer{
         font-size:19px;
         text-align: justify;
     }
+    #form1
+    {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
    
 }
 @media screen and (max-width:768px)
