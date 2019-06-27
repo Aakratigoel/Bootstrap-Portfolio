@@ -15,74 +15,6 @@ h1
 position:relative;
 left:30px;
 } 
-#border-bottom1
-{
-border:1px solid white;
-width:205px;
-position:relative;
-top:23px;
-left:45px;
-}
-#border-bottom
-{
-border:1px solid white;
-width:200px; 
-position:relative;
-top:16px;
-left:45px;
-}
-#border-top1
-{
-border:1px solid white;
-width:200px;
-position:relative;
-top:15px;
-left:40px;
-}
-#border-top
-{
-border:1px solid white;
-width:195px;
-position:relative;
-top:18px;
-left:45px;
-}
-#border-left1
-{
-border:1px solid white;
-width:0px;
-height: 23px;
-position:relative;
-top:13px;
-left:40px;
-} 
-#border-left
-{
-border:1px solid white;
-width:0px;
-height: 20px;
-position:relative;
-top:-5px;
-left:45px;
-}
-#border-right1
-{
-border:1px solid white;
-width:0px;
-height: 23px;
-position:relative;
-top:-2px;
-left:250px;
-} 
-#border-right
-{
-border:1px solid white;
-width:0px;
-height: 20px;
-position:relative;
-top:-27px;
-left:245px;
-}
 #mainDiv
 {
    background-image: url("../images/div2Image.jpg");
@@ -137,4 +69,21 @@ footer{
         height: 35px;
         font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+@media screen and (max-width:640px)
+{
+    
+    #p1
+    {
+        font-size:18px;
+        text-align:justify;
+        margin-left:25px;
+
+    }
+    #p2
+    {
+        font-size:19px;
+        text-align: justify;
+    }
+   
 }
